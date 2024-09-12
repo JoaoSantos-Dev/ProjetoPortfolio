@@ -445,7 +445,21 @@ nav {
 }
 
 /* Estilo para os cards */
+.card .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: lightgray; /* Fundo vermelho com opacidade */
+    color: gray;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Garantir que o card tenha position relative para o badge funcionar */
 .card {
+    position: relative;
     background: rgb(44, 44, 44); /* Cinza escuro */
     color: white; /* Texto branco para contraste */
     border-radius: 8px;
